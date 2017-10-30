@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0y7-Jj-dhu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="1gr-8a-547">
+            <objects>
+                <navigationController id="0y7-Jj-dhu" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W0K-ss-32p">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fMH-Ra-CNv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZV7-P4-QDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="149"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AudioVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBK-cV-AaA">
+                                <rect key="frame" x="164.5" y="258" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49341055685856516" blue="0.49490995095660872" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="CA2-fd-RlP"/>
+                                </constraints>
+                                <state key="normal" title="crop">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="crop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZH-zW-Rrw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6v0-W0-YD0">
+                                <rect key="frame" x="137" y="304" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71520688334503424" green="1" blue="0.68927225247928137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Merge"/>
+                                <connections>
+                                    <action selector="merge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iHz-hT-P8B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnA-gM-leU">
+                                <rect key="frame" x="121" y="466" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.99550098180000002" green="0.094457797709999999" blue="0.004363148939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="VXT-WY-Kc7"/>
+                                    <constraint firstAttribute="width" constant="150" id="xTc-ti-y32"/>
+                                </constraints>
+                                <state key="normal" title="Record">
+                                    <color key="titleColor" red="0.99506187440000005" green="0.99519044160000003" blue="0.99010753630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openRecorder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Yy-tH-J5o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mBK-cV-AaA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="194" id="LdK-wD-tv5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZnA-gM-leU" secondAttribute="bottom" constant="151" id="TT7-dA-4Ls"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZnA-gM-leU" secondAttribute="trailing" constant="88" id="lD9-Kt-ZyE"/>
+                            <constraint firstItem="mBK-cV-AaA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pma-SP-EpI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="x4y-ac-uia"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1553" y="-91"/>
+        </scene>
+    </scenes>
+</document>

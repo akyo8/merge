@@ -1,0 +1,19 @@
+PODS:
+  - HBRecorder (1.0.1):
+    - SCRecorder
+  - SCRecorder (2.7.0)
+
+DEPENDENCIES:
+  - HBRecorder (from `../`)
+
+EXTERNAL SOURCES:
+  HBRecorder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HBRecorder: 92418b87ab2e7a2ec698fc91cb9d68680ad661e8
+  SCRecorder: bbb521dbc222908876ec9cd9156bbc8a893bed44
+
+PODFILE CHECKSUM: c9f7850ab95013ca22019685ce3b02def2a9ca47
+
+COCOAPODS: 1.3.0

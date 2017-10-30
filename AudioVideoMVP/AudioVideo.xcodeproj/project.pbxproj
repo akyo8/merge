@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C566D101F70A8F200C52955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C566D0F1F70A8F200C52955 /* AppDelegate.swift */; };
+		4C566D121F70A8F200C52955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C566D111F70A8F200C52955 /* ViewController.swift */; };
+		4C566D151F70A8F200C52955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C566D131F70A8F200C52955 /* Main.storyboard */; };
+		4C566D171F70A8F200C52955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C566D161F70A8F200C52955 /* Assets.xcassets */; };
+		4C566D1A1F70A8F200C52955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C566D181F70A8F200C52955 /* LaunchScreen.storyboard */; };
+		4C566D251F70A8F200C52955 /* AudioVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C566D241F70A8F200C52955 /* AudioVideoTests.swift */; };
+		4C566D301F70A8F200C52955 /* AudioVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C566D2F1F70A8F200C52955 /* AudioVideoUITests.swift */; };
+		7316585AB8135A45E2CBF022 /* Pods_AudioVideoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C599C6B8A487609B9EB7B012 /* Pods_AudioVideoUITests.framework */; };
+		841C198B1FA791E500C56725 /* Asteroid_Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 841C198A1FA791E500C56725 /* Asteroid_Sound.mp3 */; };
+		843DDC541F9E4EC600759D89 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DDC501F9E4EC600759D89 /* PlayViewController.swift */; };
+		843DDC551F9E4EC600759D89 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DDC511F9E4EC600759D89 /* VideoViewController.swift */; };
+		843DDC561F9E4EC600759D89 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 843DDC531F9E4EC600759D89 /* ViewController2.m */; };
+		84C388251FA31D8000EC44B0 /* Pods_AudioVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C388261FA31D8000EC44B0 /* Pods_AudioVideoTests.framework */; };
+		84C388271FA31D9400EC44B0 /* Pods_AudioVideoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C388281FA31D9400EC44B0 /* Pods_AudioVideoUITests.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		84D37F091FA25CD20017DE2F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D37F081FA25CD20017DE2F /* AVFoundation.framework */; };
+		84D37F0B1FA2BCFF0017DE2F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D37F0A1FA2BCFF0017DE2F /* MediaPlayer.framework */; };
+		D327F29A8F78DEEE0CB25C02 /* Pods_AudioVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FF839CFD8CBE242ED15646 /* Pods_AudioVideo.framework */; };
+		EF6E40CA051657E92727F4E9 /* Pods_AudioVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C482538187E8096AC8756C83 /* Pods_AudioVideoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C566D211F70A8F200C52955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C566D041F70A8F200C52955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C566D0B1F70A8F200C52955;
+			remoteInfo = AudioVideo;
+		};
+		4C566D2C1F70A8F200C52955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C566D041F70A8F200C52955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C566D0B1F70A8F200C52955;
+			remoteInfo = AudioVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13CB8FB106C3AAB7A376733F /* Pods-AudioVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioVideoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioVideoTests/Pods-AudioVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C566D0C1F70A8F200C52955 /* AudioVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C566D0F1F70A8F200C52955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C566D111F70A8F200C52955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C566D141F70A8F200C52955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C566D161F70A8F200C52955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C566D191F70A8F200C52955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C566D1B1F70A8F200C52955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C566D201F70A8F200C52955 /* AudioVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C566D241F70A8F200C52955 /* AudioVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVideoTests.swift; sourceTree = "<group>"; };
+		4C566D261F70A8F200C52955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C566D2B1F70A8F200C52955 /* AudioVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C566D2F1F70A8F200C52955 /* AudioVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVideoUITests.swift; sourceTree = "<group>"; };
+		4C566D311F70A8F200C52955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841C198A1FA791E500C56725 /* Asteroid_Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Asteroid_Sound.mp3; sourceTree = "<group>"; };
+		843DDC4F1F9E4EC600759D89 /* AudioVideo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AudioVideo-Bridging-Header.h"; sourceTree = "<group>"; };
+		843DDC501F9E4EC600759D89 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		843DDC511F9E4EC600759D89 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		843DDC521F9E4EC600759D89 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		843DDC531F9E4EC600759D89 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		84609C671FA347EB007938EC /* Asteroid_Video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Asteroid_Video.m4v; sourceTree = "<group>"; };
+		84C388261FA31D8000EC44B0 /* Pods_AudioVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AudioVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C388281FA31D9400EC44B0 /* Pods_AudioVideoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AudioVideoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D37F081FA25CD20017DE2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84D37F0A1FA2BCFF0017DE2F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8FE89644FC7586E3AB13EB9E /* Pods-AudioVideoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioVideoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioVideoUITests/Pods-AudioVideoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96FF839CFD8CBE242ED15646 /* Pods_AudioVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B1050B453831A403CAA819 /* Pods-AudioVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioVideoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioVideoTests/Pods-AudioVideoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C482538187E8096AC8756C83 /* Pods_AudioVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C599C6B8A487609B9EB7B012 /* Pods_AudioVideoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioVideoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4DB95AB29A73BC7E2A9708 /* Pods-AudioVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioVideoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioVideoUITests/Pods-AudioVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6F4EFE90F6FAEF5618BCBA /* Pods-AudioVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioVideo/Pods-AudioVideo.release.xcconfig"; sourceTree = "<group>"; };
+		EF18A7894D878C6F0973B479 /* Pods-AudioVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioVideo/Pods-AudioVideo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C566D091F70A8F200C52955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C388271FA31D9400EC44B0 /* Pods_AudioVideoUITests.framework in Frameworks */,
+				84C388251FA31D8000EC44B0 /* Pods_AudioVideoTests.framework in Frameworks */,
+				84D37F0B1FA2BCFF0017DE2F /* MediaPlayer.framework in Frameworks */,
+				84D37F091FA25CD20017DE2F /* AVFoundation.framework in Frameworks */,
+				D327F29A8F78DEEE0CB25C02 /* Pods_AudioVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C566D1D1F70A8F200C52955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6E40CA051657E92727F4E9 /* Pods_AudioVideoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C566D281F70A8F200C52955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7316585AB8135A45E2CBF022 /* Pods_AudioVideoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB8D5E0A098F7890445386F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF18A7894D878C6F0973B479 /* Pods-AudioVideo.debug.xcconfig */,
+				EB6F4EFE90F6FAEF5618BCBA /* Pods-AudioVideo.release.xcconfig */,
+				13CB8FB106C3AAB7A376733F /* Pods-AudioVideoTests.debug.xcconfig */,
+				B6B1050B453831A403CAA819 /* Pods-AudioVideoTests.release.xcconfig */,
+				CB4DB95AB29A73BC7E2A9708 /* Pods-AudioVideoUITests.debug.xcconfig */,
+				8FE89644FC7586E3AB13EB9E /* Pods-AudioVideoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C566D031F70A8F200C52955 = {
+			isa = PBXGroup;
+			children = (
+				4C566D0E1F70A8F200C52955 /* AudioVideo */,
+				4C566D231F70A8F200C52955 /* AudioVideoTests */,
+				4C566D2E1F70A8F200C52955 /* AudioVideoUITests */,
+				4C566D0D1F70A8F200C52955 /* Products */,
+				0AB8D5E0A098F7890445386F /* Pods */,
+				F1BCA94A29D36F8FAEC6B927 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C566D0D1F70A8F200C52955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C566D0C1F70A8F200C52955 /* AudioVideo.app */,
+				4C566D201F70A8F200C52955 /* AudioVideoTests.xctest */,
+				4C566D2B1F70A8F200C52955 /* AudioVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C566D0E1F70A8F200C52955 /* AudioVideo */ = {
+			isa = PBXGroup;
+			children = (
+				84609C671FA347EB007938EC /* Asteroid_Video.m4v */,
+				841C198A1FA791E500C56725 /* Asteroid_Sound.mp3 */,
+				843DDC4F1F9E4EC600759D89 /* AudioVideo-Bridging-Header.h */,
+				843DDC501F9E4EC600759D89 /* PlayViewController.swift */,
+				843DDC511F9E4EC600759D89 /* VideoViewController.swift */,
+				843DDC521F9E4EC600759D89 /* ViewController2.h */,
+				843DDC531F9E4EC600759D89 /* ViewController2.m */,
+				4C566D0F1F70A8F200C52955 /* AppDelegate.swift */,
+				4C566D111F70A8F200C52955 /* ViewController.swift */,
+				4C566D131F70A8F200C52955 /* Main.storyboard */,
+				4C566D161F70A8F200C52955 /* Assets.xcassets */,
+				4C566D181F70A8F200C52955 /* LaunchScreen.storyboard */,
+				4C566D1B1F70A8F200C52955 /* Info.plist */,
+			);
+			path = AudioVideo;
+			sourceTree = "<group>";
+		};
+		4C566D231F70A8F200C52955 /* AudioVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C566D241F70A8F200C52955 /* AudioVideoTests.swift */,
+				4C566D261F70A8F200C52955 /* Info.plist */,
+			);
+			path = AudioVideoTests;
+			sourceTree = "<group>";
+		};
+		4C566D2E1F70A8F200C52955 /* AudioVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C566D2F1F70A8F200C52955 /* AudioVideoUITests.swift */,
+				4C566D311F70A8F200C52955 /* Info.plist */,
+			);
+			path = AudioVideoUITests;
+			sourceTree = "<group>";
+		};
+		F1BCA94A29D36F8FAEC6B927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C388281FA31D9400EC44B0 /* Pods_AudioVideoUITests.framework */,
+				84C388261FA31D8000EC44B0 /* Pods_AudioVideoTests.framework */,
+				84D37F0A1FA2BCFF0017DE2F /* MediaPlayer.framework */,
+				84D37F081FA25CD20017DE2F /* AVFoundation.framework */,
+				96FF839CFD8CBE242ED15646 /* Pods_AudioVideo.framework */,
+				C482538187E8096AC8756C83 /* Pods_AudioVideoTests.framework */,
+				C599C6B8A487609B9EB7B012 /* Pods_AudioVideoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C566D0B1F70A8F200C52955 /* AudioVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C566D341F70A8F200C52955 /* Build configuration list for PBXNativeTarget "AudioVideo" */;
+			buildPhases = (
+				1D5DB00D4B24429CC76D16FE /* [CP] Check Pods Manifest.lock */,
+				4C566D081F70A8F200C52955 /* Sources */,
+				4C566D091F70A8F200C52955 /* Frameworks */,
+				4C566D0A1F70A8F200C52955 /* Resources */,
+				0254322CCF049B16BE38077F /* [CP] Embed Pods Frameworks */,
+				89BF6C76AAD9F84358B6C7BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioVideo;
+			productName = AudioVideo;
+			productReference = 4C566D0C1F70A8F200C52955 /* AudioVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C566D1F1F70A8F200C52955 /* AudioVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C566D371F70A8F200C52955 /* Build configuration list for PBXNativeTarget "AudioVideoTests" */;
+			buildPhases = (
+				A7BF984E23AEEC98DA8A7819 /* [CP] Check Pods Manifest.lock */,
+				4C566D1C1F70A8F200C52955 /* Sources */,
+				4C566D1D1F70A8F200C52955 /* Frameworks */,
+				4C566D1E1F70A8F200C52955 /* Resources */,
+				FCFFFE45ED513F3AF39FE57E /* [CP] Embed Pods Frameworks */,
+				BEFC43D83556A565CB7E3EC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C566D221F70A8F200C52955 /* PBXTargetDependency */,
+			);
+			name = AudioVideoTests;
+			productName = AudioVideoTests;
+			productReference = 4C566D201F70A8F200C52955 /* AudioVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C566D2A1F70A8F200C52955 /* AudioVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C566D3A1F70A8F200C52955 /* Build configuration list for PBXNativeTarget "AudioVideoUITests" */;
+			buildPhases = (
+				5DDFD935EED62F5013FADF6C /* [CP] Check Pods Manifest.lock */,
+				4C566D271F70A8F200C52955 /* Sources */,
+				4C566D281F70A8F200C52955 /* Frameworks */,
+				4C566D291F70A8F200C52955 /* Resources */,
+				F5E1199A35DA0AE152252FE6 /* [CP] Embed Pods Frameworks */,
+				0379EE33DB946D3D91E96636 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C566D2D1F70A8F200C52955 /* PBXTargetDependency */,
+			);
+			name = AudioVideoUITests;
+			productName = AudioVideoUITests;
+			productReference = 4C566D2B1F70A8F200C52955 /* AudioVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C566D041F70A8F200C52955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vipul Srivastav";
+				TargetAttributes = {
+					4C566D0B1F70A8F200C52955 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LMREG9Y2YS;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					4C566D1F1F70A8F200C52955 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YR9TMCH756;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C566D0B1F70A8F200C52955;
+					};
+					4C566D2A1F70A8F200C52955 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YR9TMCH756;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C566D0B1F70A8F200C52955;
+					};
+				};
+			};
+			buildConfigurationList = 4C566D071F70A8F200C52955 /* Build configuration list for PBXProject "AudioVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C566D031F70A8F200C52955;
+			productRefGroup = 4C566D0D1F70A8F200C52955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C566D0B1F70A8F200C52955 /* AudioVideo */,
+				4C566D1F1F70A8F200C52955 /* AudioVideoTests */,
+				4C566D2A1F70A8F200C52955 /* AudioVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C566D0A1F70A8F200C52955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C566D1A1F70A8F200C52955 /* LaunchScreen.storyboard in Resources */,
+				4C566D171F70A8F200C52955 /* Assets.xcassets in Resources */,
+				4C566D151F70A8F200C52955 /* Main.storyboard in Resources */,
+				841C198B1FA791E500C56725 /* Asteroid_Sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C566D1E1F70A8F200C52955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C566D291F70A8F200C52955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0254322CCF049B16BE38077F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioVideo/Pods-AudioVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0379EE33DB946D3D91E96636 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioVideoUITests/Pods-AudioVideoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D5DB00D4B24429CC76D16FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DDFD935EED62F5013FADF6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89BF6C76AAD9F84358B6C7BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioVideo/Pods-AudioVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BF984E23AEEC98DA8A7819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEFC43D83556A565CB7E3EC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioVideoTests/Pods-AudioVideoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E1199A35DA0AE152252FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioVideoUITests/Pods-AudioVideoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCFFFE45ED513F3AF39FE57E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioVideoTests/Pods-AudioVideoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C566D081F70A8F200C52955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C566D121F70A8F200C52955 /* ViewController.swift in Sources */,
+				843DDC541F9E4EC600759D89 /* PlayViewController.swift in Sources */,
+				843DDC561F9E4EC600759D89 /* ViewController2.m in Sources */,
+				843DDC551F9E4EC600759D89 /* VideoViewController.swift in Sources */,
+				4C566D101F70A8F200C52955 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C566D1C1F70A8F200C52955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C566D251F70A8F200C52955 /* AudioVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C566D271F70A8F200C52955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C566D301F70A8F200C52955 /* AudioVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C566D221F70A8F200C52955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C566D0B1F70A8F200C52955 /* AudioVideo */;
+			targetProxy = 4C566D211F70A8F200C52955 /* PBXContainerItemProxy */;
+		};
+		4C566D2D1F70A8F200C52955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C566D0B1F70A8F200C52955 /* AudioVideo */;
+			targetProxy = 4C566D2C1F70A8F200C52955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C566D131F70A8F200C52955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C566D141F70A8F200C52955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C566D181F70A8F200C52955 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C566D191F70A8F200C52955 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C566D321F70A8F200C52955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C566D331F70A8F200C52955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C566D351F70A8F200C52955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF18A7894D878C6F0973B479 /* Pods-AudioVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LMREG9Y2YS;
+				INFOPLIST_FILE = AudioVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VipulSrivastav.AudioVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioVideo/AudioVideo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C566D361F70A8F200C52955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6F4EFE90F6FAEF5618BCBA /* Pods-AudioVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LMREG9Y2YS;
+				INFOPLIST_FILE = AudioVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VipulSrivastav.AudioVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioVideo/AudioVideo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C566D381F70A8F200C52955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CB8FB106C3AAB7A376733F /* Pods-AudioVideoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YR9TMCH756;
+				INFOPLIST_FILE = AudioVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VipulSrivastav.AudioVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioVideo.app/AudioVideo";
+			};
+			name = Debug;
+		};
+		4C566D391F70A8F200C52955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B1050B453831A403CAA819 /* Pods-AudioVideoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YR9TMCH756;
+				INFOPLIST_FILE = AudioVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VipulSrivastav.AudioVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioVideo.app/AudioVideo";
+			};
+			name = Release;
+		};
+		4C566D3B1F70A8F200C52955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4DB95AB29A73BC7E2A9708 /* Pods-AudioVideoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YR9TMCH756;
+				INFOPLIST_FILE = AudioVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VipulSrivastav.AudioVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AudioVideo;
+			};
+			name = Debug;
+		};
+		4C566D3C1F70A8F200C52955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE89644FC7586E3AB13EB9E /* Pods-AudioVideoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YR9TMCH756;
+				INFOPLIST_FILE = AudioVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VipulSrivastav.AudioVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AudioVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C566D071F70A8F200C52955 /* Build configuration list for PBXProject "AudioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C566D321F70A8F200C52955 /* Debug */,
+				4C566D331F70A8F200C52955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C566D341F70A8F200C52955 /* Build configuration list for PBXNativeTarget "AudioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C566D351F70A8F200C52955 /* Debug */,
+				4C566D361F70A8F200C52955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C566D371F70A8F200C52955 /* Build configuration list for PBXNativeTarget "AudioVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C566D381F70A8F200C52955 /* Debug */,
+				4C566D391F70A8F200C52955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C566D3A1F70A8F200C52955 /* Build configuration list for PBXNativeTarget "AudioVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C566D3B1F70A8F200C52955 /* Debug */,
+				4C566D3C1F70A8F200C52955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C566D041F70A8F200C52955 /* Project object */;
+}
